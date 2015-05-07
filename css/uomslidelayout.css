@@ -8,7 +8,11 @@ h4 {
     font-family: 'Yanone Kaffeesatz';
     font-weight: normal;
 }
-
+.comment{
+		color: white;
+		background: yellow;
+		padding: 5px;
+	}
 .uomi{
 	position: absolute;
 	top: 0px;
@@ -27,9 +31,13 @@ h2 {
     font-family: 'Yanone Kaffeesatz';
     font-weight: normal;
     position: absolute;
-    top: -0.9em;
+    top: -0.8em;
     left: 220px;
 	right: 200px;
+}
+
+li{
+	font-size: 1.5em;
 }
 
 .caption {
@@ -71,7 +79,7 @@ h2 {
     line-height: 0.8em;
 }
 .inverse a {
-    color: #F92672;
+    color: #FE4D3E;
     text-decoration: none;
 }
 pre {
@@ -83,7 +91,7 @@ code {
 }
 a {
     color: #68218B;
-    /*#F92672;*/
+    /*#FE4D3E;*/
     
     text-decoration: none;
 }
@@ -183,10 +191,10 @@ a {
     bottom: 0.5em;
     left: 1em;
     font-size: 0.6em;
-    color: #F92672;
+    color: #FE4D3E;
 }
 .inverse .credits a {
-    color: #F92672;
+    color: #FE4D3E;
     text-decoration: none;
 }
 .inverse .noteids {
@@ -194,10 +202,10 @@ a {
     top: 1.0em;
     right: 1em;
     font-size: 1.0 em;
-    color: #F92672;
+    color: #FE4D3E;
 }
 .inverse .noteids a {
-    color: #F92672;
+    color: #FE4D3E;
     text-decoration: none;
 }
 .aside {
@@ -206,17 +214,47 @@ a {
     left: 1.0em;
 	right: 220px;
     font-size: 1.0em;
-    color: #F92672;
-    border: 1px dashed #F92672;
+    color: #FE4D3E;
+    border: 1px dashed #FE4D3E;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Yanone Kaffeesatz';
     font-weight: normal;
 }
+.asidenb {
+    position: absolute;
+    bottom: 2.0em;
+    left: 1.0em;
+	right: 220px;
+    font-size: 1.0em;
+    color: #FE4D3E;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: normal;
+}
+
 blockquote {
-    line-height: 1.8em;
+    line-height: 1.3em;
+    font-family: 'Yanone Kaffeesatz';
+	font-size: 1.8em;
     font-style: italic;
+	text-align: center;
+}
+blockquote:before{
+	content: '"';
+}
+blockquote:after{
+	content: '"';
+}
+.alert{
+	display: block;
+	color: #FE4D3E;
+	text-align: center;
+	font-weight: bold;
+	
 }
 .top {
     padding-top: 3em;
 }
+

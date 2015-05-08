@@ -1,7 +1,7 @@
 # Presentation Slides for - DOM Block Clustering for Enhanced Sampling and Evaluation
 [![DOI](https://zenodo.org/badge/4300/sharpic/DOMBlockClustering.svg)](http://dx.doi.org/10.5281/zenodo.17389)
 
-- Slides at: http://sharpic.github.io/DOMBlockClustering/DOMBlockClustering.html#1
+- Slides at: http://sharpic.github.io/DOMBlockClustering/
 - Full Paper at: http://dx.doi.org/10.1145/2745555.2746649
 - References at: http://sharpic.github.io/DOMBlockClustering/DOMBlockClustering.bib
 
